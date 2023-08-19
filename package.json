@@ -1,0 +1,19 @@
+{
+  "name": "@dervondenbergen/gitlab-todo-issues",
+  "version": "0.1.0",
+  "description": "Simple utility to automatically generate GitLab issues based on \"TODO:\" and \"FIXME:\" comments in the code",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
+  "author": "Felix De Montis <hi@felix.dm>",
+  "license": "MIT",
+  "repository": "dervondenbergen/gitlab-todo-issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@gitbeaker/rest": "^39.11.0",
+    "dotenv": "^16.3.1",
+    "simple-git": "^3.19.1"
+  }
+}
